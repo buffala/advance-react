@@ -18,7 +18,8 @@ const GlobalStyles = createGlobalStyle`
     --lightGray: var(--lightGrey);
     --offWhite: #ededed;
     --maxWidth: 1000px;
-    --bs: 0 12px 24px 0 rbga(0,0,0,0.9)
+    --bs: 0 12px 24px 0 rbga(0,0,0,0.9);
+    font-size: 10px;
   }
 `;
 

@@ -14,12 +14,12 @@ export const Product = list({
     }),
     photo: relationship({
       ref: 'ProductImage.product',
-      // ui: {
-      //   displayMode: 'cards',
-      //   cardFields: ['image', 'altText'],
-      //   inlineCreate: { fields: ['image', 'altText'] },
-      //   inlineEdit: { fields: ['image', 'altText'] },
-      // },
+      ui: {
+        displayMode: 'cards',
+        cardFields: ['image', 'altText'],
+        inlineCreate: { fields: ['image', 'altText'] },
+        inlineEdit: { fields: ['image', 'altText'] },
+      },
     }),
     status: select({
       options: [
